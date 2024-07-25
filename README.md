@@ -20,7 +20,7 @@ Through hands-on projects and exercises, learners will develop a solid foundatio
     - Arithmetic, Assignment, and Bitwise Operators
     - String Handling
     - Typecasting
-- Lesson 2: **LIBRARIES AND PROGRAMMING STRUCTURES**
+- Lesson 2: **LIBRARIES AND CONTROL FLOW**
     - Built-in Libraries
     - Pre-defined String and Math Functions
     - Selection Structures
