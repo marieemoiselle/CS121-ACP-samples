@@ -1,6 +1,8 @@
 # ADVANCED COMPUTER PROGRAMMING
 by: ***Fatima Marie P. Agdon, MSCS***
 <br>Note: This is still ongoing, and will have updates as the course progresses.
+<br>Don't forget to give this a ⭐!
+
 ## 👋🏻 Greetings!
 Welcome to the **CS 121: Advanced Computer Programming** course!🐍💙💛
 
