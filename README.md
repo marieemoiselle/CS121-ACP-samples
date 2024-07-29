@@ -1,3 +1,4 @@
+![CS-121](https://github.com/user-attachments/assets/abc88a7c-b9f7-4632-a0ba-e66240d1f497)
 # ADVANCED COMPUTER PROGRAMMING
 by: ***Fatima Marie P. Agdon, MSCS***
 <br>Note: This is still ongoing, and will have updates as the course progresses.
