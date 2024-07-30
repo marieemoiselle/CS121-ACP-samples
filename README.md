@@ -48,7 +48,6 @@ Through hands-on projects and exercises, learners will develop a solid foundatio
     - Stacks
     - Queues and Priority Queues
     - Trees, Binary Search Tree Operations, Traversals
-    - Array Sorting Algorithms
 - Lesson 6: **PYTHON TKINTER BASICS**
     - Tkinter Overview
     - Tkinter Event Handling
