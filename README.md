@@ -9,13 +9,13 @@ Welcome to the **CS 121: Advanced Computer Programming** course!🐍💙💛
 
 This course offers a comprehensive introduction to Python programming, covering fundamental concepts such as basic syntax, operators, and data structures, and advancing to more complex topics including object-oriented programming, exception handling, and algorithms. 
 
-After this course, you will gain practical experience with GUI development using Tkinter and database management with MySQL, equipping them you the skills to build robust and interactive applications. 
+After this course, students will gain practical experience with GUI development using Tkinter and database management with MySQL, equipping them the skills to build robust and interactive applications. 
 
 Through hands-on projects and exercises, learners will develop a solid foundation in both programming principles and real-world application development.
 
 ## 🎯 Course Outline
 - Lesson 1: **INTRODUCTION**
-    - Programming Languages Overview
+    - The Python Programming Language Overview
     - Output Operations
     - Basic Escape Sequences
     - Placeholders
