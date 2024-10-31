@@ -1,7 +1,7 @@
 import re
 
 input = "Fatima Marie"
-pattern = r"marie"
+pattern = r"mari"
 is_match = re.search(pattern, input, re.IGNORECASE)
 print(is_match)  
 

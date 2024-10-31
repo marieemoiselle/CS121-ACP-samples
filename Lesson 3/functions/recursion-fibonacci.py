@@ -6,7 +6,7 @@ def fibonacci(n):
 		return fibonacci(n - 1) + fibonacci(n - 2)  
 		# Recursive case: F(n) = F(n-1) + F(n-2)
 
-num = 8
+num = 4
 print("Fibonacci number at position", num, "is:", fibonacci(num))
 
 # Output: 
