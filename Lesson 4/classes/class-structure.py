@@ -31,5 +31,6 @@ class Person:
         print(f"I am turning {self.age} years old.")
 
 person = Person("Fatima Marie", age = 27)
+# Person p = new Person ("Fatima Marie", 27);
 person.say_bonjour()
 person.add_age()

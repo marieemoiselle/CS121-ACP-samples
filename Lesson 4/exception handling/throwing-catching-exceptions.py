@@ -4,6 +4,6 @@ def check_age(age):
 	print("Age:", age)
 
 try:
-	check_age(-1)
+	check_age(-2)
 except ValueError as e:
 	print("An illegal argument exception occurred:", str(e))
