@@ -17,6 +17,7 @@ class PriorityQueue:
 
 queue = PriorityQueue()
 
+#the lower the numerical value, the higher the priority
 queue.enqueue("hello", 2)
 queue.enqueue("python", 1)
 queue.enqueue("world", 3)

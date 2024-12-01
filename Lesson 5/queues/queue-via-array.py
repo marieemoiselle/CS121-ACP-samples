@@ -27,11 +27,7 @@ class Queue:
 		return self.data[self.front]
 
 queue = Queue()
-queue.enqueue(4)
-queue.enqueue(8)
-queue.enqueue(12)
-queue.enqueue(16)
-queue.enqueue(20)
+
 
 print("Peek:", queue.peek())
 print("Dequeue:", queue.dequeue())

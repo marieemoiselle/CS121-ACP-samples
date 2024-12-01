@@ -1,9 +1,11 @@
-MAX_SIZE = 100
+MAX_SIZE = 5
 
 class Stack:
 	def __init__(self):
-		self.data = [None] * MAX_SIZE
+		self.data = [None] * MAX_SIZE 
+		#list to store the elements
 		self.top = -1
+		#keeps track of the position of the last element added
 
     # push operation
 	def push(self, element):
@@ -33,11 +35,6 @@ class Stack:
 
 stack = Stack()
 
-stack.push(9)
-stack.push(18)
-stack.push(27)
-stack.push(36)
-stack.push(45)
 
 print("Peek:", stack.peek())
 print("Pop:", stack.pop())
