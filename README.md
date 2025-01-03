@@ -14,6 +14,7 @@ Through hands-on projects and exercises, learners will develop a solid foundatio
 ## 🎯 Course Outline
 - Lesson 1: **GETTING STARTED WITH PYTHON**
     - Introduction
+        - Overview of the Programming Language
         - Python Data Types
         - Python Input and Output
         - Python Operators
@@ -21,3 +22,8 @@ Through hands-on projects and exercises, learners will develop a solid foundatio
         - Selection Structures
         - Relational Operators
         - Iterative Structures
+    - Keywords
+        - break
+        - continue
+        - pass
+        - match (Python 3.10+)
