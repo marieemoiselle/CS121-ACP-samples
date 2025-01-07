@@ -1,0 +1,5 @@
+print("Welcome to CS 121: Advanced Computer Programming!")
+print("Fatima\nMarie\nAgdon")
+print("Fatima", end=' ')
+print("Marie", end=' ')
+print("Agdon")
