@@ -1,19 +1,19 @@
 ![CS-121](https://github.com/user-attachments/assets/abc88a7c-b9f7-4632-a0ba-e66240d1f497)
 # ADVANCED COMPUTER PROGRAMMING
-by: ***Fatima Marie P. Agdon, MSCS***
+by: ***Ms. Fatima Marie P. Agdon, MSCS***
 <br>Note: This is still ongoing, and will have updates as the course progresses.
 <br>Don't forget to give this a ⭐!
 
 ## 👋🏻 Greetings!
 Welcome to the **CS 121: Advanced Computer Programming** course!🐍💙💛
 
-This course offers a comprehensive introduction to Python programming, covering fundamental concepts such as basic syntax, operators, and data structures, and advancing to more complex topics including object-oriented programming, exception handling, and algorithms. 
+This Python course provides a solid foundation in the language, covering setup, syntax, and core operations, then advancing to topics like data structures, control flow, functions, and object-oriented programming. 
 
-After this course, students will gain practical experience with GUI development using Tkinter and database management with MySQL, equipping them the skills to build robust and interactive applications. 
+Students will also learn file handling, modular design, and error management, developing strong problem-solving skills. 
 
-Through hands-on projects and exercises, learners will develop a solid foundation in both programming principles and real-world application development.
+By the end, they will be equipped to handle real-world challenges and explore Python further.
 
-## 🎯 Course Outline
+## 🗺️ Roadmap
 - Lesson 1: **INTRODUCTION**
     - The Python Programming Language Overview
     - Output Operations
@@ -23,34 +23,57 @@ Through hands-on projects and exercises, learners will develop a solid foundatio
     - Arithmetic, Assignment, and Bitwise Operators
     - String Handling
     - Typecasting
-- Lesson 2: **LIBRARIES AND PROGRAM CONTROL FLOW**
-    - Built-in Libraries
-    - Pre-defined String and Math Functions
-    - Selection Structures
-    - Relational and Boolean Operators
-    - Nested Decisions
-    - Iterative Structures - While, For Loops and Nested Loop
-    - Break and Continue Statements
-    - Lists, Tuple, and Set
-- Lesson 3: **DICTIONARIES, FUNCTIONS, FILE HANDLING**
-    - Dictionaries
-    - Functions, Recursions, and Lambda Functions
-    - Accessing Files
-    - Python Dates and Time
-    - Regular Expressions
-- Lesson 4: **PYTHON OOP CONCEPTS**
-    - Object-oriented Programming in Python
-    - Classes, Methods, Constructors
-    - Encapsulation, Inheritance, and Polymorphism
-    - Exception Handling
-- Lesson 5: **PYTHON DATA STRUCTURES**
-    - Linked Lists
-    - Stacks
-    - Queues and Priority Queues
-    - Trees, Binary Search Tree Operations, Traversals
-- Lesson 6: **PYTHON TKINTER BASICS**
-    - Tkinter Overview
-    - Tkinter Event Handling
-    - Tkinter Controls
-    - Python MySQL
-    - Tkinter Application with Database
+- Lesson 2: **PYTHON COLLECTIONS AND DATA STRUCTURES**
+    - Introduction to Collections
+        - List
+        - Tuples
+        - Sets
+        - Dictionaries
+    - Python Arrays
+    - Initialization of Collections
+    - Accessing Items in a Collection
+    - Manipulation of Items in a Collection
+- Lesson 3: **PYTHON CONTROL FLOW AND LOOPS**
+    - If, Elif, Else
+    - Comparison Operator Chaining							
+    - For Loop, While Loop
+    - ```break```, ```continue```, and ```pass```
+    - Conditional Techniques and Looping Techniques
+    - Combinational Techniques of Conditions and Loops
+- Lesson 4: **PYTHON FUNCTIONS, EXCEPTION HANDLING, AND ERRORS**
+	- ***Python Functions***
+        - Introduction to Python Functions
+        - Function Scopes
+        - Different Function Arguments
+        - User-defined Functions
+        - Built-in Functions
+        - Callback Functions
+        - Lambda Functions and Higher Order Functions
+    - ***Exception Handling and Errors***
+        - Introduction to Exception Handling in Python
+        - Python TryExcept
+        - Errors and Exceptions in Python
+        - Built-in Exceptions
+        - User-defined Exceptions
+- Lesson 5: **OBJECT-ORIENTED PROGRAMMING IN PYTHON**
+    - Introduction to OOP in Python
+    - Classes and Objects
+    - Method Resolution Order (MRO)
+    - Method Overloading
+    - Python Inheritance
+    - Multiple Inheritance
+    - Python ```super``` Keyword
+    - Polymorphism in Python
+    - Encapsulation in Python
+    - Dunder or Magic Methods
+- Lesson 6: **PYTHON FILE HANDLING AND MODULES**
+    - ***Python File Handling***
+        - Python OS
+        - Reading Files with Python
+        - Writing and Creating Files with Python
+        - Deleting Files with Python
+    - ***Python Modules***
+        - Understanding the Concept of Modules in Python
+        - Python Main Module
+        - Python Built-in Modules
+        - Project and Module Structuring in Python
