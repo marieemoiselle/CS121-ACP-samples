@@ -1,4 +1,4 @@
-person1 = {"name": "Marie", "age": 27, "occupation": "Instructor", "city": "New York"}
+person1 = {"name": "Marie", "age": 28, "occupation": "Instructor", "city": "New York"}
 for key, value in person1.items():
     print(key, value)
 
