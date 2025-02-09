@@ -1,10 +1,13 @@
-# Converting a tuple to a list
-my_tuple = (9, 8, 7)
-my_newlist = list(my_tuple)
+my_tuple = (9, 18, 27)
+# my_tuple[3] = 36
+# print(my_tuple)
 
-# Converting a list to a tuple
-my_list = [12, 13, 14]
-my_tuple = tuple(my_list)
+new_tuple = my_tuple + (5, 10, 15)
+print(new_tuple)
 
-print(f"Converted list: {my_newlist}")
-print(f"Converted tuple: {my_tuple}")
+# conversion
+converted_list = list(new_tuple)
+print(f"List before 32: {converted_list}")
+converted_list.insert(2, 32)
+converted_list.append(90)
+print(converted_list)
