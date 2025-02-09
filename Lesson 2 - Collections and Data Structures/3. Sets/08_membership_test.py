@@ -6,5 +6,5 @@ print(7 in my_set)  # Output: False
 set1 = {8, 16}
 set2 = {8, 16, 24, 32, 40}
 
-print(set2.issubset(set1))  # Output: True
+print(set2.issubset(set1))  # Output: False
 print(set2.issuperset(set1))  # Output: True
