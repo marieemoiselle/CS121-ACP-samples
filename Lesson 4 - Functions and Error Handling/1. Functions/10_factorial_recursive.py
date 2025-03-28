@@ -6,7 +6,7 @@ def factorial(n):
         return n * factorial(n - 1)  
         # Recursive case: n! = n * (n-1)
 
-num = 9
+num = 5
 print(f"{num}! = {factorial(num)}")
 
 # Output

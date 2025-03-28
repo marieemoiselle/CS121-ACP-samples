@@ -2,7 +2,7 @@ def main():
     try:
         numbers = [4, 6, 9]
         print(numbers[5])  
-  # Raises IndexError
+         # Raises IndexError
         text = None
         print(len(text))
         # Raises TypeError

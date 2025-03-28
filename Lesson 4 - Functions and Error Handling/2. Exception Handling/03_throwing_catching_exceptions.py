@@ -6,4 +6,7 @@ def check_age(age):
 try:
     check_age(-1)
 except ValueError as e:
-    print("An illegal argument exception occurred:", str(e))
+    print("An error occurred:", str(e))
+
+# Call with a valid age
+check_age(-1)

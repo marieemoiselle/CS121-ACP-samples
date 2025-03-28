@@ -6,4 +6,5 @@ def divide(dividend, divisor):
         print("An arithmetic exception occurred:", str(e))
 
 if __name__ == "__main__":
-    divide(100, 0)
+    divide(100, 5)
+    print("Hello world!")
