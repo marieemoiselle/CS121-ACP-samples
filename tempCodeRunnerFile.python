@@ -1,0 +1,67 @@
+from abc import ABC, abstractmethod
+
+# Abstraction
+class BankAccount(ABC):
+    def __init__(self, account_number, owner, balance=0):
+        self.__account_number = account_number  # Encapsulation
+        self.__owner = owner
+        self.__balance = balance
+
+    def get_account_number(self):
+        return self.__account_number
+
+    def get_owner(self):
+        return self.__owner
+
+    def get_balance(self):
+        return self.__balance
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            print(f"Deposited ₱{amount}. New balance: ₱{self.__balance}")
+        else:
+            print("Invalid deposit amount.")
+
+    def _update_balance(self, amount):
+        self.__balance += amount
+
+    @abstractmethod
+    def withdraw(self, amount):
+        pass
+
+# Inheritance and Polymorphism
+class SavingsAccount(BankAccount):
+    def withdraw(self, amount):
+        if amount <= self.get_balance():
+            self._update_balance(-amount)
+            print(f"Withdrew ₱{amount} from Savings. New balance: ₱{self.get_balance()}")
+        else:
+            print("Insufficient funds in Savings Account.")
+
+class CheckingAccount(BankAccount):
+    def __init__(self, account_number, owner, balance=0, overdraft_limit=1000):
+        super().__init__(account_number, owner, balance)
+        self.__overdraft_limit = overdraft_limit
+
+    def withdraw(self, amount):
+        if amount <= self.get_balance() + self.__overdraft_limit:
+            self._update_balance(-amount)
+            print(f"Withdrew ₱{amount} from Checking. New balance: ₱{self.get_balance()}")
+        else:
+            print("Overdraft limit exceeded.")
+
+# Main Program
+def main():
+    acc1 = SavingsAccount("SA123", "Alice", 5000)
+    acc2 = CheckingAccount("CA456", "Bob", 3000)
+
+    accounts = [acc1, acc2]
+
+    for acc in accounts:
+        print(f"\nAccount of {acc.get_owner()} [{acc.get_account_number()}]")
+        acc.deposit(1000)
+        acc.withdraw(2000)
+
+if __name__ == "__main__":
+    main()
