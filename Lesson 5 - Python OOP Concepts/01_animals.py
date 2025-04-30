@@ -28,12 +28,18 @@ class Cow(Animal):
     def make_sound(self):
         return f"{self.get_name()} says: Moo!"
 
+class Capybara(Animal):
+    def make_sound(self):
+        return f"{self.get_name()} says: \"Capybaraaaa\"" 
+
 # Main program
 def main():
     animals = [
         Dog("Buddy"),
         Cat("Whiskers"),
-        Cow("Daisy")
+        Cow("Daisy"),
+        Capybara("Nyeo"),
+        Capybara("Nyadimir")
     ]
 
     for animal in animals:

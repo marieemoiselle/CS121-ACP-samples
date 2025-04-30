@@ -1,0 +1,26 @@
+@startuml appilance_uml
+
+abstract class Appliance {
+    - brand: str
+    - power: int
+    - is_on: bool
+    --
+    + __init__(brand: str, power: int)
+    + turn_on(): void
+    + turn_off(): void
+    + get_brand(): str
+    + get_power(): int
+    # operate(): void
+}
+
+class WashingMachine {
+    - load_capacity: int
+    --
+    + __init__(brand: str, power: int, load_capacity: int)
+    + operate(): void
+    + start_wash_cycle(): void
+}
+
+Appliance <|-- WashingMachine
+
+@enduml

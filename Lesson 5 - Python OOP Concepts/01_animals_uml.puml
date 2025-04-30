@@ -1,0 +1,35 @@
+@startuml animals_uml
+
+abstract class Animal {
+    + name: str
+    ---
+    + __init__(name: str)
+    + get_name(): str
+    + set_name(name:str)
+    # make_sound(): str
+}
+
+class Dog {
+    + make_sound(): str
+}
+
+
+class Cat {
+    + make_sound(): str
+}
+
+
+class Cow {
+    + make_sound(): str
+}
+
+class Capybara {
+    + make_sound(): str
+}
+
+Animal <|-- Dog
+Animal <|-- Cat
+Animal <|-- Cow
+Animal <|-- Capybara
+
+@enduml
