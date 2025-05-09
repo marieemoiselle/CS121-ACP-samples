@@ -1,0 +1,17 @@
+@startuml 05_person_uml
+
+abstract class Person{
+    + name: str
+    ---
+    # introduce_self(): void
+}
+
+class Student{
+    + student_id: int
+    ---
+    + introduce_self(): void
+}
+
+Person <|-- Student
+
+@enduml
